@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Vârli's Souls Archive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Soulslike" are a video game genre commonly known for their high difficulty, especially boss fights.
+Being a fan of these games, this app is dedicated to being an archive of my walkthroughs of this games (first time beating bosses, running various builds, etc.), and also including tips on how to beat said bosses.
 
-## Available Scripts
+This is a collaborative project dedicated to learn React in-depth, as well as how to structure frontend projects. So take everything with a grain of salt.
 
-In the project directory, you can run:
+# Table of contents
+- [Can I use the template of the site?](#can-i-use-the-template-of-the-site)
+- [Running the app for development](#running-the-app-for-development)
+- [Deploying the app for production](#deploying-the-app-for-production)
+- [Required 3rd party tools](#required-3rd-party-tools)
 
-### `npm start`
+# Can I use the template of the site?
+Sure! Since it's an open source project, feel free to clone the repo and play with the design and expand on it. Bellow are the instructions for how to use the template.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Running the app for development
+- After cloning or downloading the repo from the main branch, install the required dependencies by running:
+```bash
+npm install
+```
+- Run the program by using:
+```bash
+npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Deploying the app for production
+- After cloning or downloading the repo from the main branch, install the required dependencies by running:
+```bash
+npm install
+```
+- Install pm2 to serve the static content
+```bash
+npm i -g pm2
+```
+- Run the application by using:
+```bash
+npm run production
+```
 
-### `npm test`
+Happy coding!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Required 3rd party tools
+**Node.js 21.7.3**
+- [Windows & MacOS download](https://nodejs.org/en/download/prebuilt-installer)
+- [Linux download](https://github.com/nvm-sh/nvm)
